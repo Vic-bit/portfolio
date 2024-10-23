@@ -1,9 +1,9 @@
 # Portfolio
 
-I'm a mechatronics engineer passionate about artificial intelligence. I'm doing my postgraduate studies in artificial intelligence and this is my portfolio with various projects that I have carried out. I have ordered them descending in time.
+I'm a mechatronics engineer passionate about artificial intelligence. I'm doing my postgraduate degree in artificial intelligence and this is my portfolio with various projects that I have carried out. I have ordered them descending in time.
 
 ## Sentimental analysis with natural language processing
-Te proyect is in the folder called "Desafio 5": 
+The project is in the folder called "Desafio 5": 
 https://github.com/Vic-bit/NLP-Desafios
 
 **Highlights**
@@ -28,4 +28,10 @@ https://github.com/Vic-bit/NLP-Desafios
 - Modeling: Supervised models (Binary classification), Transfer Learning (ResNet18)
 - Tools: Git, Jupyter
 
-**Tags**: computer vision, classification, resnet18
+**Tags**: computer vision, classification, resnet18, movileNet
+
+## Time series analytics for car sales 
+
+## Evolutionary Algoritms
+This proyect include de following Evolutionary Algoritms:
+- Genetic Algorims
