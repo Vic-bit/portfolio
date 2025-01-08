@@ -87,14 +87,68 @@ En el tercer trabajo se quiere encontrar un logotipo entre diferentes imágenes 
 
 **Tags**: computer vision, detection, segmentation, opencv
 
-## Spotify add a song to a playlist prediction
-Este proyecto abarca el análisis de datos, su limpieza y extracción de las features más relevantes. En la segunda etapa de entrenan diferentes modelos de machine learning como linear regression, knn, support vector machine, decision trees, random forest y k-means donde se compara sus métricas de f1-score, sus curvas de entrenamiento, sus matrices de confusión y sus curvas ROC, definiendo el mejor modelo para esa aplicación. Posteriormente se realiza el despliegue del modelo.
 
-**Highlights**
 
-- Languages: Python
-- ML Libraries: OpenCV
-- Modeling: Supervised models (Binary classification)
-- Tools: Git, Colab
+## 🎧📊 Data Analysis y Machine Learning con Spotify (04/24 - 06/24)
 
-**Tags**: linear regression, knn, support vector machine, decision trees, random forest, k-means 
+Este proyecto aplicado se desarrolló durante el **posgrado en Inteligencia Artificial (CEIA - FIUBA)**, integrando tres materias: **Análisis de Datos**, **Machine Learning 1** y **Machine Learning 2**.  
+
+El objetivo principal fue construir un sistema predictivo basado en playlists de Spotify, aprovechando técnicas de análisis de datos, aprendizaje automático y despliegue de modelos.  
+
+### **1️⃣ Análisis de Datos**  
+Se exploraron exhaustivamente el dataset de Spotify, aplicando técnicas como:  
+- Limpieza de datos  
+- Análisis estadístico  
+- Selección de características  
+
+Esto permitió identificar variables clave que influyen en las preferencias musicales de los usuarios.  
+
+**Highlights**  
+- 🔧 Skills: Data Analysis · Statistical Data Analysis · Data Cleaning · Feature Selection . Colab 
+- 🤝 Equipo: Francisco Rassi y Gonzalo Avalos Ribas
+- 🔗 Repositorio: https://github.com/Vic-bit/analisis_de_datos_CEIA/tree/main/Trabajo_Final
+
+![TPFinal_Analisis_de_Datos](https://github.com/user-attachments/assets/2879df0a-7594-43fe-8718-89b1c79a131c)
+
+---  
+
+### **2️⃣ Machine Learning 1**  
+Se desarrolló un modelo de clasificación probando varios algoritmos, incluyendo:  
+- Logistic Regression  
+- K-Nearest Neighbors (KNN)  
+- Decision Trees  
+- Random Forest  
+- Support Vector Machine (SVM)  
+- K-means  
+
+**Evaluación**  
+- Se usó Grid Search para optimizar hiperparámetros.  
+- Se compraron los modelos según precisión, F1-score y AUC.  
+
+**Resultados destacados**  
+- **SVM**: Mejor precisión y F1-score.  
+- **Random Forest**: Mejor AUC.  
+
+**Highlights**  
+- 🔧 Skills: SVM · Random Forest · Logistic Regression . KNN . Decision Trees . K-means 
+- 🤝 Equipo: Francisco Rassi y Gonzalo Avalos Ribas
+- 🔗 Repositorio: https://github.com/Vic-bit/CEIA-VC1/tree/main/Material_TPs
+
+<img width="652" alt="Algorithn" src="https://github.com/user-attachments/assets/136da6f1-ffc0-4a16-b089-5247c254ba9e" />
+
+---  
+
+### **3️⃣ Despliegue del Modelo (Machine Learning 2)**  
+Implementamos un modelo de clasificación utilizando **Batch Processing** con la siguiente arquitectura:  
+- **MinIO**: Simulando un bucket S3 para datos y el modelo.  
+- **Redis**: Para respuestas rápidas y de baja latencia.  
+- **Metaflow DAG**: Automatización del pipeline para carga de datos, procesamiento, predicciones y almacenamiento.  
+
+**Highlights**  
+- 🔧 Tecnologías: Docker Compose · Redis · Metaflow · MinIO . Git
+- 🤝 Equipo: Francisco Rassi, Gonzalo Avalos Ribas y Octavio Desays  
+- 🔗 Repositorio: https://github.com/Gonzalo-Avalos-Ribas/amq2-service-ml
+
+![redis_batch](https://github.com/user-attachments/assets/5372616f-2360-4287-b22d-3a088ee04977)
+
+---  
